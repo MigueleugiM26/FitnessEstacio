@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fitness Estácio - Abdômen</title>
+		<link rel="shortcut icon" href="../Imagens/Design/Halter.png" type="image/x-icon">
+		<link rel="stylesheet" href="../CSS/style2.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yu+Mincho">
+		<script src="../JavaScript/script.js"></script>
+	</head>
+	<body>
+		<section class="sectionHeader">
+			<div class="menuDropdown" id="menuDropdown">
+				<ul class="listaDropdown">
+					<li><button onclick="fecharMenu()" style="height: 5rem; background-color: transparent; border: none;"><img
+						src="../Imagens/Design/fecharMenu.png" style="width: 5rem; margin-left: 0;"></button></li>
+					<li>‎ </li>
+					<li>‎ </li>
+					<li>‎ </li>
+					<li><a class="buttonMenu" href="../index.html">HOME</a></li>
+					<li><a class="buttonMenu" style="color: #F91220;" href="exercicios.html"">EXERCÍCIOS</a></li>
+					<li><a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a></li>
+					<li><a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a></li>
+					<li><a class="buttonMenu" href="conta.html">CONTA</a></li>
+					<li><a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a></li>
+					<li><br></li>
+					<li><hr class="linha"></li>
+					<li><br></li>
+					<li><a class="buttonMenu" href="peitos.html">PEITOS</a></li>
+					<li><a class="buttonMenu" href="costas.html">COSTAS</a></li>
+					<li><a class="buttonMenu" href="bracos.html">BRAÇOS</a></li>
+					<li><a class="buttonMenu" href="pernas.html">PERNAS</a></li>
+					<li><a class="buttonMenu" style="color: #F91220;" href="abdomen.html">ABDÔMEN</a></li>
+					<li><a class="buttonMenu" href="cardio.html">CARDIO</a></li>
+				</ul>
+			</div>
+			<div class="headerLeft">
+				<img src="../Imagens/Design/LogoCima.svg" class="logoCima">
+			</div>
+			<div class="headerRight">
+				<section class="buttonHeader buttonHeaderCima">
+					<a class="buttonMenu" href="../index.html">HOME</a>
+					<a class="buttonMenu" style="color: #F91220;" href="exercicios.html"">EXERCÍCIOS</a>
+					<a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a>
+					<a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a>
+					<a class="buttonMenu" href="conta.html">CONTA</a>
+					<a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="peitos.html">PEITOS</a>
+					<a class="buttonMenu" href="costas.html">COSTAS</a>
+					<a class="buttonMenu" href="bracos.html">BRAÇOS</a>
+					<a class="buttonMenu" href="pernas.html">PERNAS</a>
+					<a class="buttonMenu" style="color: #F91220;" href="abdomen.html">ABDÔMEN</a>
+					<a class="buttonMenu" href="cardio.html">CARDIO</a>
+				</section>
+			</div>
+			<div class="headerRight1450">
+				<section class="buttonHeader buttonHeaderCima" style="margin-top: -11rem;">
+					<a class="buttonMenu" href="../index.html">HOME</a>
+					<a class="buttonMenu" style="color: #F91220;" href="exercicios.html"">EXERCÍCIOS</a>
+					<a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a>
+				</section>
+				<section class="buttonHeader buttonHeaderCima1450" style="margin-bottom: 2rem;">
+					<a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a>
+					<a class="buttonMenu" href="conta.html">CONTA</a>
+					<a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="peitos.html">PEITOS</a>
+					<a class="buttonMenu" href="costas.html">COSTAS</a>
+					<a class="buttonMenu" href="bracos.html">BRAÇOS</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="pernas.html">PERNAS</a>
+					<a class="buttonMenu" style="color: #F91220;" href="abdomen.html">ABDÔMEN</a>
+					<a class="buttonMenu" href="cardio.html">CARDIO</a>
+				</section>
+			</div>
+			<div class="buttonHeaderEscondido">
+				<button onclick="abrirMenu()" style="background-color: transparent; border: none;"><img
+					src="../Imagens/Design/menu.png" style="width: 5rem; margin-left: 0; " alt="iconeMenu"></button>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen1">
+				<div class="divInfo">
+					<h1 class="txtInfo">Crunch - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/1. Crunch Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen1')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Crunch <span class="buttonInfo" onclick="abrirInfo('divAbdomen1')">ⓘ</span></h2>
+				<p class="txtDesc">O crunch é um exercício de fortalecimento dos músculos abdominais, principalmente os músculos
+					retos do abdômen. É uma variação do exercício de abdominal que visa trabalhar a parte frontal do core.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divCrunch">
+					<img src="../Imagens/GIFs/Abdominal/1. Crunch.gif" alt="Crunch" class="gifPequeno" id="gifCrunch" onclick="abrirGif('gifCrunch', 'divCrunch')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen2">
+				<div class="divInfo">
+					<h1 class="txtInfo">Prancha - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/2. Prancha Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen2')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Prancha <span class="buttonInfo" onclick="abrirInfo('divAbdomen2')">ⓘ</span></h2>
+				<p class="txtDesc">A prancha é um exercício de fortalecimento do core que envolve a sustentação do corpo em uma
+					posição estática, fortalecendo os músculos abdominais, lombares e do quadril.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPrancha">
+					<img src="../Imagens/GIFs/Abdominal/2. Prancha.gif" alt="Prancha" class="gifPequeno" id="gifPrancha" onclick="abrirGif('gifPrancha', 'divPrancha')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen3">
+				<div class="divInfo">
+					<h1 class="txtInfo">Prancha Lateral - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/3. Prancha Lateral Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen3')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Prancha Lateral <span class="buttonInfo" onclick="abrirInfo('divAbdomen3')">ⓘ</span></h2>
+				<p class="txtDesc">A prancha lateral, também conhecida como "side plank," é uma variação da prancha tradicional
+					que se concentra no fortalecimento dos músculos oblíquos e do core. Ela também trabalha os músculos
+					estabilizadores do quadril e ajuda a melhorar a estabilidade lateral do corpo.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPranchaLateral">
+					<img src="../Imagens/GIFs/Abdominal/3. Prancha Lateral.gif" alt="Prancha Lateral" class="gifPequeno" id="gifPranchaLateral" onclick="abrirGif('gifPranchaLateral', 'divPranchaLateral')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen4">
+				<div class="divInfo">
+					<h1 class="txtInfo">Elevação de Pernas Suspenso - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/4. Elevação de Pernas Suspenso Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen4')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Elevação de Pernas Suspenso <span class="buttonInfo" onclick="abrirInfo('divAbdomen4')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A elevação de pernas suspensas, também conhecida como "hanging leg raise," é um exercício avançado que trabalha
+					principalmente os músculos abdominais inferiores, mas também envolve os flexores do quadril e o core como um
+					todo. Esse exercício é frequentemente feito usando uma barra de pull-up ou uma barra de suspensão.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divElevacaoPernas">
+					<img src="../Imagens/GIFs/Abdominal/4. Elevação de Pernas Suspenso.gif" alt="Elevação de Pernas Suspenso"
+						class="gifPequeno" id="gifElevacaoPernas" onclick="abrirGif('gifElevacaoPernas', 'divElevacaoPernas')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen5">
+				<div class="divInfo">
+					<h1 class="txtInfo">Abdominal Bicicleta - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/5. Abdominal Bicicleta Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen5')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Abdominal Bicicleta <span class="buttonInfo" onclick="abrirInfo('divAbdomen5')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O abdominal bicicleta, também conhecido como "bicycle crunch," é um exercício eficaz para trabalhar os músculos
+					abdominais, incluindo os oblíquos e os músculos retos do abdômen. Esse exercício simula o movimento de pedalar
+					uma bicicleta, envolvendo ambos os lados do core.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divAbdominalBicicleta">
+					<img src="../Imagens/GIFs/Abdominal/5. Abdominal Bicicleta.gif" alt="Abdominal Bicicleta" class="gifPequeno" id="gifAbdomminalBicicleta" onclick="abrirGif('gifAbdomminalBicicleta', 'divAbdominalBicicleta')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen6">
+				<div class="divInfo">
+					<h1 class="txtInfo">Prancha com Elevação Alternada de Braços - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/6. Prancha com Elevação Alternada de Braços Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen6')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Prancha com Elevação Alternada de Braços <span class="buttonInfo" onclick="abrirInfo('divAbdomen6')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A prancha com elevação alternada de braços é uma variação do exercício de prancha tradicional que adiciona o
+					movimento de elevar um braço enquanto mantém a posição de prancha. Isso acrescenta um componente de equilíbrio e
+					estabilidade ao exercício, aumentando ainda mais o envolvimento do core e dos músculos estabilizadores.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPranchaElevacao">
+					<img src="../Imagens/GIFs/Abdominal/6. Prancha com Elevação de Braços.gif" alt="Prancha com Elevação de braço"
+						class="gifPequeno" id="gifPranchaElevacao" onclick="abrirGif('gifPranchaElevacao', 'divPranchaElevacao')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen7">
+				<div class="divInfo">
+					<h1 class="txtInfo">Tesoura - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/7. Tesoura Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen7')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Tesoura <span class="buttonInfo" onclick="abrirInfo('divAbdomen7')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A tesoura é um exercício que visa trabalhar os músculos abdominais, especialmente os músculos oblíquos, de forma
+					dinâmica. Também é conhecido como "scissor kicks."
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divTesoura">
+					<img src="../Imagens/GIFs/Abdominal/7. Tesoura.gif" alt="Tesoura" class="gifPequeno" id="gifTesoura" onclick="abrirGif('gifTesoura', 'divTesoura')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen8">
+				<div class="divInfo">
+					<h1 class="txtInfo">Elevação de Quadril - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/8. Elevação de Quadril Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen8')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Elevação de Quadril <span class="buttonInfo" onclick="abrirInfo('divAbdomen8')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A elevação de quadril, também conhecida como "hip raise" ou "hip bridge," é um exercício excelente para
+					trabalhar os músculos glúteos, isquiotibiais e lombares, além de fortalecer o core.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divElevacaoQuadril">
+					<img src="../Imagens/GIFs/Abdominal/8. Elevação de Quadril.gif" alt="Elevação de Quadril" class="gifPequeno" id="gifElevacaoQuadril" onclick="abrirGif('gifElevacaoQuadril', 'divElevacaoQuadril')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen9">
+				<div class="divInfo">
+					<h1 class="txtInfo">Prancha com Rotação de Quadril - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/9. Prancha com Rotação de Quadril Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen9')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Prancha com Rotação de Quadril <span class="buttonInfo" onclick="abrirInfo('divAbdomen9')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A prancha com rotação de quadril, também conhecida como "plank hip twist," é uma variação da prancha tradicional
+					que adiciona um movimento de rotação dos quadris para trabalhar ainda mais os músculos oblíquos e o core.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPranchaRotacao">
+					<img src="../Imagens/GIFs/Abdominal/9. Prancha com Rotação de Quadril.gif" alt="Prancha R de Quadril"
+						class="gifPequeno" id="gifPranchaRotacao" onclick="abrirGif('gifPranchaRotacao', 'divPranchaRotacao')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divAbdomen10">
+				<div class="divInfo">
+					<h1 class="txtInfo">Abdominal na Bola Suíça - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Abdômen/10. Abdominal na Bola Suíça Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divAbdomen10')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Abdominal na Bola Suíça <span class="buttonInfo" onclick="abrirInfo('divAbdomen10')">ⓘ</span></h2>
+				<p class="txtDesc">O abdominal na bola suíça, também conhecido como "Swiss ball crunch" ou "stability ball
+					crunch," é uma variação do exercício de abdominal tradicional que envolve a utilização da bola suíça para
+					adicionar um elemento de instabilidade, o que requer um maior engajamento dos músculos do core para manter a
+					estabilidade durante o movimento.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divAbdominalBola">
+					<img src="../Imagens/GIFs/Abdominal/10. Abdominal na Bola Suíça.gif" alt="Abdominal na bola Suiça"
+						class="gifPequeno" id="gifAbdominalBola" onclick="abrirGif('gifAbdominalBola', 'divAbdominalBola')">
+				</div>
+			</div>
+		</section>
+
+			<section class="arealogo" style="margin: 5rem;">
+		<img src="../Imagens/Design/LogoBaixo.svg" id="logoabaixo">
+	</section>
+	</body>
+</html>

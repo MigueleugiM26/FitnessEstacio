@@ -1,0 +1,1201 @@
+/*Código de Kauã a partir daqui*/
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: auto;
+  font-family: "sans-serif";
+  margin: 0;
+
+  max-width: 100%;
+
+  background-image: url(../Imagens/Design/FundoNovo_IA.jpg);
+  background-size: 100%;
+  position: relative;
+  /*Posição relativa a pagina, vai se adapatando conforme o modelo*/
+  overflow-x: hidden;
+  /*Esconde a barra horizontal*/
+}
+
+nav {
+  color: white;
+  /* Cor do texto */
+  padding: 10px;
+  /* Espaçamento interno */
+  width: 100%;
+  /* Ocupa toda a largura */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  /* Centraliza os links */
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  /* Espaço entre os itens do menu */
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+}
+
+.h2,
+p,
+img {
+  margin-left: 300px;
+
+}
+
+.menu-column {
+  margin-left: 775px;
+}
+
+.menu-coluna {
+  margin-left: 800px;
+}
+
+.logo-img {
+  height: 95px;
+  margin-left: -70px;
+
+}
+
+.descer {
+  margin: 140px;
+  margin-right: -50px;
+  height: 150px;
+  width: 260px;
+}
+
+
+.gifPequeno {
+  width: 25rem;
+  margin: 0px;
+  margin-left: 0rem;
+  margin-top: 5rem;
+
+  border-radius: 20px;
+  border: 4px solid #6d070c;
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gifGrande {
+  height: 50%;
+  margin: 0px;
+  margin-left: 0rem;
+  margin-top: 0;
+
+  border-radius: 20px;
+  border: 4px solid #6d070c;
+
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+
+.logoCima {
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+  width: 11rem;
+}
+
+.titulo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 90%;
+  margin-top: 5rem;
+  /* Adicionado espaço entre a navegação e o conteúdo */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content {
+  width: 50%;
+  flex: 1;
+  min-width: 50%;
+}
+
+.right-content {
+  flex: 1;
+  min-width: 30rem;
+  max-width: 20%;
+  margin-left: 5rem;
+}
+
+
+
+
+
+
+/*Código de Felipe a partir daqui*/
+.blocks1 img {
+  width: 18rem;
+  height: 18rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 3rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blocks2 img {
+  width: 18rem;
+  height: 18rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 3rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
+.blocks1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.blocks2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.blockpeito,
+.blockcostas,
+.blockbracos,
+.blockpernas,
+.blockabdomem,
+.blockcardio {
+  position: relative;
+  width: 18rem;
+  margin: 0rem 2rem;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blockpeito p,
+.blockcostas p,
+.blockbracos p,
+.blockpernas p,
+.blockabdomem p,
+.blockcardio p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+#logoabaixo {
+  width: 20rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  pointer-events: none;
+}
+
+
+
+
+
+/*Código de Miguel a partir daqui*/
+.linha {
+  width: 13rem;
+}
+
+.grupoMuscularImg {
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+.txtTitulo {
+  color: #f91220;
+  margin-left: 13%;
+  font-size: 4vh;
+  font-weight: 100;
+}
+
+.txtDesc {
+  margin-left: 13%;
+  font-size: 3vh;
+  font-weight: 100;
+
+}
+
+.sectionHeader {
+  display: inline;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLeft {
+  width: 10%;
+  flex: 1;
+  flex-wrap: wrap;
+
+  min-width: 20%;
+  max-width: 20%;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+.headerRight {
+  flex: 1;
+  flex-wrap: wrap;
+
+  width: 30rem;
+  min-width: 30%;
+  max-width: 80%;
+  margin-top: 5rem;
+  margin-left: 30%;
+
+  display: block;
+}
+
+.headerRight1450 {
+  flex: 1;
+  flex-wrap: wrap;
+
+  width: 30rem;
+  min-width: 30%;
+  max-width: 80%;
+  margin-top: 5rem;
+  margin-left: 35%;
+
+  display: none;
+}
+
+.buttonHeader {
+  margin-left: 15%;
+  width: 63rem;
+
+}
+
+.buttonHeaderEscondido {
+  margin-left: 0%;
+  width: 5rem;
+  min-width: 5rem;
+  max-width: 10rem;
+
+  display: none;
+}
+
+.buttonHeaderCima {
+  margin-top: -27.75%;
+  flex-wrap: wrap;
+
+}
+
+.buttonHeaderBaixo {
+  margin-top: 0.75%;
+}
+
+.menuDropdown {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #340508;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  display: none;
+}
+
+.listaDropdown {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+
+  right: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 25%;
+}
+
+li {
+  width: 50%;
+}
+
+.telaAtivaMenu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #340508;
+  display: block !important;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  z-index: 2;
+
+  max-width: 100%;
+}
+
+
+a {
+  text-decoration: none;
+  text-emphasis-color: white;
+  text-decoration-color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.buttonMenu {
+  margin-left: 3%;
+  margin-right: 3%;
+
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+
+
+  font-size: 2vh;
+}
+
+.buttonMenu:hover {
+  color: #ffa1a6;
+}
+
+.buttonMenu:active {
+  color: #781318;
+}
+
+
+.btnInscrever {
+  background: #F91220;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 2.5%;
+
+  border: #F91220;
+  border-radius: 360px;
+  color: rgb(255, 255, 255);
+  font: inherit;
+  cursor: pointer;
+  font-size: 3vh;
+}
+
+.btnInscrever:hover {
+  background: #a80c16;
+  color: white;
+}
+
+.btnInscrever:active {
+  background: #6d070c;
+  color: white;
+}
+
+.textoHomeTitulo {
+  font-size: 9vh;
+  margin-bottom: -1.5rem;
+  font-weight: 100;
+}
+
+.textoHomeSubtitulo {
+  font-size: 5vh;
+  margin-bottom: -0.5rem;
+  font-weight: 100;
+}
+
+.textoHomeParagrafo {
+  font-size: 2vh;
+  color: #999999;
+  width: 25rem;
+  margin-left: 0;
+}
+
+.textoCopyright {
+  margin-top: 11%;
+  font-size: 1.5vh;
+  color: #999999;
+  bottom: 1rem;
+  position: absolute;
+  margin-left: 0;
+}
+
+.card {
+  perspective: 800px;
+  position: relative;
+}
+
+.frenteCard,
+.atrasCard {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: all .8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.atrasCard {
+  transform: rotateY(-180deg);
+  background-color: #a80c16;
+  color: white;
+  font-size: 3vh;
+  position: relative;
+
+  width: 18rem;
+  height: 18rem;
+  border-radius: 3rem;
+
+  margin: 0rem 2rem;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover .frenteCard {
+  transform: rotateY(180deg);
+}
+
+.card:hover .atrasCard {
+  transform: rotateY(0);
+}
+
+.nav1 {
+  display: block;
+}
+
+.nav2 {
+  display: none;
+}
+
+.nav3 {
+  display: none;
+}
+
+.txtBlock {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.checked {
+  color: #F91220;
+}
+
+.textName {
+  margin-left: 13%;
+  width: 75%;
+  height: 2.5rem;
+  background-color: #340508;
+  color: white;
+  font-size: 3vh;
+  resize: none;
+  border-radius: 25px;
+  border-color: #6d070c;
+  outline: #6d070c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  margin-bottom: 1rem;
+}
+
+.textbox {
+  margin-left: 13%;
+  width: 75%;
+  height: 20rem;
+  background-color: #340508;
+  color: white;
+  font-size: 3vh;
+  resize: none;
+  border-radius: 25px;
+  border-color: #6d070c;
+  outline: #6d070c;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+}
+
+.divTeste{
+  margin: 0;
+  margin-left: 13%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.rate {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding: 0;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:left;
+  margin-right: 0;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:5vh;
+  color:#8a8a8a;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #F91220;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #ff0011;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #94111a;
+}
+
+
+.buttonEnviar {
+  background: #F91220;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 13%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 5rem;
+
+  width: 15rem;
+
+  border: #F91220;
+  border-radius: 360px;
+  color: rgb(255, 255, 255);
+  font: inherit;
+  cursor: pointer;
+  font-size: 2vh;
+}
+.buttonEnviar:hover {
+  background: #a80c16;
+  color: white;  
+}
+.buttonEnviar:active {
+  background: #6d070c;
+  color: white;
+}
+
+.blocoAvaliacao {
+  margin-bottom: 3rem;
+}
+
+
+.txtAvaliacao {
+  margin-left: 16%;
+  font-size: 3vh;
+  font-weight: 100;
+}
+
+.descAvaliacao {
+  margin-left: 16%;
+  font-size: 2.5vh;
+  font-weight: 100;
+  max-width: 60%;
+  margin-top: -1rem;
+}
+
+.imagensAvaliacao {
+  margin-left: 15%;
+}
+
+.fotoPequena {
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  border: 1px solid #f91220;
+}
+
+.fotoGrande {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 5rem;
+  height: 80%;
+  border-radius: 15px;
+  object-fit: contain;
+  z-index: 999;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.9); 
+  margin-left: 0;
+
+  border: 1px solid #f91220;
+}
+
+.divGrande {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95); 
+  z-index: 999;
+}
+
+.signIn {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  align-items: normal;
+  justify-content: center;
+  width: 100%;
+  margin-top: 13rem;
+}
+
+.criarConta {
+  margin-right: 10rem;
+  margin-top: 0;
+  padding: 0;
+  width: 15rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.entrarConta {
+  margin-left: 10rem;
+  margin-top: 0;
+  padding: 0;
+  width: 15rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.txtConta {
+  color: #f91220;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-size: 4vh;
+  font-weight: 100;
+}
+
+.inputConta {
+  margin-bottom: 1rem;
+  margin-left: 0;
+  width: 14rem;
+  height: 2rem;
+  border-radius: 25px;
+  background-color: #151515;
+  color: #F91220;
+  padding-left: 1rem;
+  border-color: #340508;
+  outline: transparent;
+  font-size: 1.5vh;
+}
+.inputConta::placeholder {
+  color: white;
+}
+
+.buttonConta {
+  background: #F91220;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+
+  width: 15rem;
+
+  border: #F91220;
+  border-radius: 360px;
+  color: rgb(255, 255, 255);
+  font: inherit;
+  cursor: pointer;
+  font-size: 2vh;
+}
+.buttonConta:hover {
+  background: #a80c16;
+  color: white;  
+}
+.buttonConta:active {
+  background: #6d070c;
+  color: white;
+}
+
+.buttonInfo {
+  cursor: pointer;
+}
+.buttonInfo:hover {
+  color: #94111a;
+}
+.buttonInfo:active {
+  color: #6d070c;
+}
+
+.divInfo {
+  width: 90%;
+  height: 90%;
+  background-image: url("../Imagens/Design/FundoNovo_IA.jpg");
+  background-size: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  border: 1px solid #6d070c;
+}
+
+.esconderInfo {
+  display: none;
+}
+
+.mostrarInfo {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); 
+  z-index: 999;
+}
+
+.imgInfo {
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+  border: 4px solid #6d070c;
+  cursor: pointer;
+}
+
+.txtInfo {
+  color: #f91220;
+  margin: 0;
+  margin-top: 4rem;
+  font-size: 4vh;
+  font-weight: 100;
+}
+
+/*Responsividade baseada no tamanho da tela a partir daqui*/
+@media(max-width: 1775px) {
+  .headerRight {
+    margin-left: 20rem;
+    margin-top: 4rem;
+  }
+}
+
+@media(max-width: 1590px) {
+  .headerRight {
+    margin-left: 15rem;
+    margin-top: 4rem;
+  }
+}
+
+@media(max-width: 1470px) {
+  .headerRight {
+    margin-left: 15rem;
+    margin-top: 4rem;
+  }
+
+
+
+
+  .arealogo {
+    margin-top: 8rem;
+  }
+
+  .txtTitulo {
+    margin-left: 3rem;
+  }
+
+  .txtDesc {
+    margin-left: 3rem;
+  }
+
+  .textbox {
+    margin-left: 3rem;
+    width: 90%;
+    height: 15rem;
+    background-color: #340508;
+    color: white;
+    font-size: 3vh;
+    resize: none;
+  }
+  .divTeste{
+    margin: 0;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .buttonEnviar {
+    margin-left: 3rem;
+  }
+}
+
+@media(max-width: 1450px) {
+  .headerRight {
+    margin-left: 10rem;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  #logoEsquerda {
+    display: none;
+  }
+}
+
+@media(max-width: 1280px) {
+  .headerRight {
+    margin-left: 10rem;
+    margin-top: 4rem;
+  }
+}
+
+@media(max-width: 1200px) {
+  .headerRight {
+    margin-left: 0rem;
+    margin-top: 12rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 {
+    display: block;
+  }
+
+  .nav3 {
+    display: none;
+  }
+}
+
+@media(max-width: 1050px) {
+  .headerRight {
+    display: none;
+  }
+
+  .headerRight1450 {
+    display: none;
+  }
+
+  .buttonHeaderEscondido {
+    margin-top: -5.5rem;
+    margin-left: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 950px) {
+  .gifPequeno {
+    width: 50%;
+    height: 25%;
+    margin-left: 15%;
+  }
+
+  .sectionHeader {
+    display: block;
+    align-items: center !important;
+  }
+
+  .headerRight {
+    display: none;
+  }
+
+  .headerRight1450 {
+    display: none;
+  }
+
+  .buttonHeaderEscondido {
+    margin-top: -5.5rem;
+    margin-left: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logoEsquerda {
+    display: none;
+  }
+
+  .textoHomeTitulo {
+    font-size: 6vh;
+    margin-bottom: -.5rem;
+    font-weight: 100;
+  }
+
+  .textoHomeSubtitulo {
+    font-size: 2vh;
+    margin-bottom: -0.5rem;
+    font-weight: 100;
+  }
+
+  .textoHomeParagrafo {
+    font-size: 2vh;
+    color: #999999;
+    width: 20rem;
+    margin-left: 0;
+  }
+
+  .textoCopyright {
+    margin-top: 11%;
+    font-size: 1vh;
+    color: #999999;
+    bottom: 1rem;
+    position: absolute;
+    margin-left: 0;
+  }
+
+  .btnInscrever {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 5%;
+
+    font-size: 2vh;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 {
+    display: none;
+  }
+
+  .nav3 {
+    display: block;
+  }
+
+  .arealogo {
+    margin-top: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #logoabaixo {
+    right: initial;
+    margin-left: 0;
+  }
+
+  .logoCima {
+    margin-left: 2rem;
+  }
+
+  .txtTitulo {
+    width: 85%;
+    margin-left: 2rem;
+
+  }
+
+  .txtDesc {
+    width: 85%;
+    margin-left: 2rem;
+
+  }
+
+  .right-content {
+    flex: 1;
+    min-width: 85%;
+    max-width: 86%;
+    margin-left: 3rem;
+  }
+
+  .textbox {
+    max-width: 85%;
+  }
+
+  .imgInfo {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    border: 4px solid #6d070c;
+    cursor: pointer;
+  }
+
+  .criarConta {
+    margin-right: 2.5rem;
+    margin-top: 0;
+    padding: 0;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .entrarConta {
+    margin-left: 2.5rem;
+    margin-top: 0;
+    padding: 0;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .gifGrande {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .textbox {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 650px) {
+  .textbox {
+    max-width: 75%;
+  }
+
+  .fotoGrande {
+    top: 5rem;
+    width: 75%;
+    height: auto;
+  }
+
+  .gifGrande {
+    top: 5rem;
+    width: 75%;
+    height: auto;
+  }
+  
+  .signIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .criarConta {
+    margin-right: 0;
+    margin-top: -7rem;
+
+  }
+
+  .entrarConta {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .textbox {
+    max-width: 75%;
+  }
+  
+  .fotoGrande {
+    top: 10rem;
+    width: 75%;
+    height: auto;
+  }
+
+  .gifGrande {
+    top: 10rem;
+    width: 75%;
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .textbox {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 350px) {
+  .textbox {
+    max-width: 75%;
+  }
+
+  .fotoGrande {
+    top: 15rem;
+    width: 75%;
+    height: auto;
+  }
+
+  .gifGrande {
+    top: 15rem;
+    width: 75%;
+    height: auto;
+  }
+}

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fitness Estácio - Costas</title>
+		<link rel="shortcut icon" href="../Imagens/Design/Halter.png" type="image/x-icon">
+		<link rel="stylesheet" href="../CSS/style2.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yu+Mincho">
+		<script src="../JavaScript/script.js"></script>
+	</head>
+	<body>
+		<section class="sectionHeader">
+			<div class="menuDropdown" id="menuDropdown">
+				<ul class="listaDropdown">
+					<li><button onclick="fecharMenu()" style="height: 5rem; background-color: transparent; border: none;"><img
+						src="../Imagens/Design/fecharMenu.png" style="width: 5rem; margin-left: 0;"></button></li>
+					<li>‎ </li>
+					<li>‎ </li>
+					<li>‎ </li>
+					<li><a class="buttonMenu" href="../index.html">HOME</a></li>
+					<li><a class="buttonMenu" style="color: #F91220;" href="exercicios.html">EXERCÍCIOS</a></li>
+					<li><a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a></li>
+					<li><a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a></li>
+					<li><a class="buttonMenu" href="conta.html">CONTA</a></li>
+					<li><a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a></li>
+					<li><br></li>
+					<li><hr class="linha"></li>
+					<li><br></li>
+					<li><a class="buttonMenu" href="peitos.html">PEITOS</a></li>
+					<li><a class="buttonMenu" style="color: #F91220;" href="costas.html">COSTAS</a></li>
+					<li><a class="buttonMenu" href="bracos.html">BRAÇOS</a></li>
+					<li><a class="buttonMenu" href="pernas.html">PERNAS</a></li>
+					<li><a class="buttonMenu" href="abdomen.html">ABDÔMEN</a></li>
+					<li><a class="buttonMenu" href="cardio.html">CARDIO</a></li>
+				</ul>
+			</div>
+			<div class="headerLeft">
+				<img src="../Imagens/Design/LogoCima.svg" class="logoCima">
+			</div>
+			<div class="headerRight">
+				<section class="buttonHeader buttonHeaderCima">
+					<a class="buttonMenu" href="../index.html">HOME</a>
+					<a class="buttonMenu" style="color: #F91220;" href="exercicios.html">EXERCÍCIOS</a>
+					<a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a>
+					<a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a>
+					<a class="buttonMenu" href="conta.html">CONTA</a>
+					<a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="peitos.html">PEITOS</a>
+					<a class="buttonMenu" style="color: #F91220;" href="costas.html">COSTAS</a>
+					<a class="buttonMenu" href="bracos.html">BRAÇOS</a>
+					<a class="buttonMenu" href="pernas.html">PERNAS</a>
+					<a class="buttonMenu" href="abdomen.html">ABDÔMEN</a>
+					<a class="buttonMenu" href="cardio.html">CARDIO</a>
+				</section>
+			</div>
+			<div class="headerRight1450">
+				<section class="buttonHeader buttonHeaderCima" style="margin-top: -11rem;">
+					<a class="buttonMenu" href="../index.html">HOME</a>
+					<a class="buttonMenu" style="color: #F91220;" href="exercicios.html">EXERCÍCIOS</a>
+					<a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a>
+				</section>
+				<section class="buttonHeader buttonHeaderCima1450" style="margin-bottom: 2rem;">
+					<a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a>
+					<a class="buttonMenu" href="conta.html">CONTA</a>
+					<a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="peitos.html">PEITOS</a>
+					<a class="buttonMenu" style="color: #F91220;" href="costas.html">COSTAS</a>
+					<a class="buttonMenu" href="bracos.html">BRAÇOS</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="pernas.html">PERNAS</a>
+					<a class="buttonMenu" href="abdomen.html">ABDÔMEN</a>
+					<a class="buttonMenu" href="cardio.html">CARDIO</a>
+				</section>
+			</div>
+			<div class="buttonHeaderEscondido">
+				<button onclick="abrirMenu()" style="background-color: transparent; border: none;"><img
+					src="../Imagens/Design/menu.png" style="width: 5rem; margin-left: 0; " alt="iconeMenu"></button>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas1">
+				<div class="divInfo">
+					<h1 class="txtInfo">Barra Fixa - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/1. Barra Fixa Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas1')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Barra Fixa <span class="buttonInfo" onclick="abrirInfo('divCostas1')">ⓘ</span></h2>
+				<p class="txtDesc">
+					As barras fixas, também conhecidas como pull-ups ou chin-ups, são um exercício eficaz para fortalecer a parte superior do corpo, especialmente os músculos das costas, braços e ombros.
+				</p>
+			</div>
+
+			<div class="right-content">
+				<div class="divPequeno" id="divBarraFixa">
+					<img src="../Imagens/GIFs/Costas/1. Barra Fixa.gif" alt="Barra Fixa" class="gifPequeno" id="gifBarraFixa" onclick="abrirGif('gifBarraFixa', 'divBarraFixa')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas2">
+				<div class="divInfo">
+					<h1 class="txtInfo">Levantamento Terra - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/2. Levantamento Terra Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas2')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Levantamento Terra <span class="buttonInfo" onclick="abrirInfo('divCostas2')">ⓘ</span></h2>
+				<p class="txtDesc">O levantamento terra, também conhecido como deadlift, é um exercício fundamental de levantamento de peso que trabalha diversos grupos musculares, incluindo os músculos das costas, glúteos, isquiotibiais, quadríceps e core. É um exercício altamente eficaz para desenvolver a força e a resistência muscular.
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divDeadlift">
+					<img src="../Imagens/GIFs/Costas/2. Levantamento Terra.gif" alt="Levantamento Terra"
+						class="gifPequeno" id="gifDeadlift" onclick="abrirGif('gifDeadlift', 'divDeadlift')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas3">
+				<div class="divInfo">
+					<h1 class="txtInfo">Remada com Barra - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/3. Remada com Barra Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas3')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Remada com Barra <span class="buttonInfo" onclick="abrirInfo('divCostas3')">ⓘ</span></h2>
+				<p class="txtDesc">A remada com barra, também conhecida como "bent-over barbell row", é um exercício excelente para desenvolver os músculos das costas, especialmente os músculos dorsais (latíssimos do dorso) e trapézio, além de trabalhar os bíceps e os músculos do abdômen.</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divRemadaBarra">
+					<img src="../Imagens/GIFs/Costas/3. Remada com Barra.gif" alt="Remada com Barra"
+						class="gifPequeno" id="gifRemadaBarra" onclick="abrirGif('gifRemadaBarra', 'divRemadaBarra')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas4">
+				<div class="divInfo">
+					<h1 class="txtInfo">Remada Unilateral - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/4. Remada Unilateral Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas4')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Remada Unilateral <span class="buttonInfo" onclick="abrirInfo('divCostas4')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A remada unilateral, também conhecida como "single-arm row", é um exercício de musculação focado no desenvolvimento dos músculos das costas, especialmente os músculos dorsais (latíssimos do dorso) e os trapézios. Essa variação permite que você trabalhe cada lado das costas de forma isolada, o que pode ajudar a corrigir assimetrias musculares e melhorar a estabilidade.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divRemadaUnilateral">
+					<img src="../Imagens/GIFs/Costas/4. Remada Unilateral.gif" alt="Remada Unilateral"
+						class="gifPequeno" id="gifRemadaUnilateral" onclick="abrirGif('gifRemadaUnilateral', 'divRemadaUnilateral')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas5">
+				<div class="divInfo">
+					<h1 class="txtInfo">Crucifixo Inverso - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/5. Crucifixo Inverso Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas5')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Crucifixo Inverso <span class="buttonInfo" onclick="abrirInfo('divCostas5')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O crucifixo inverso, também conhecido como "reverse fly", é um exercício de musculação que tem como objetivo trabalhar os músculos das costas, especialmente os músculos das escápulas e deltoides posteriores. Ele é realizado usando halteres ou equipamentos específicos para criar uma sensação de alongamento e contração nos músculos das costas.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divFlyInverso">
+					<img src="../Imagens/GIFs/Costas/5. Crucifixo Inverso.gif" alt="Crucifixo Inverso"
+						class="gifPequeno" id="gifFlyInverso" onclick="abrirGif('gifFlyInverso', 'divFlyInverso')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas6">
+				<div class="divInfo">
+					<h1 class="txtInfo">Pulldown - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/6. Pulldown Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas6')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Pulldown <span class="buttonInfo" onclick="abrirInfo('divCostas6')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O pulldown, também conhecido como lat pulldown, é um exercício de musculação muito eficaz para trabalhar os músculos das costas, especialmente os músculos dorsais (latíssimos do dorso), os músculos do ombro e os bíceps. Ele é realizado em uma máquina de pulldown, onde você puxa uma barra para baixo em direção ao peito.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPulldown">
+					<img src="../Imagens/GIFs/Costas/6. Pulldown.gif" alt="Pulldown" class="gifPequeno" id="gifPulldown" onclick="abrirGif('gifPulldown', 'divPulldown')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas7">
+				<div class="divInfo">
+					<h1 class="txtInfo">Pulldown Fechado - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/7. Pulldown Fechado Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas7')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Pulldown Fechado <span class="buttonInfo" onclick="abrirInfo('divCostas7')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O pulldown fechado, também conhecido como "close-grip pulldown", é uma variação do exercício de pulldown que envolve uma pegada mais estreita nas barras da máquina. Essa variação foca principalmente nos músculos dorsais (latíssimos do dorso), mas também trabalha de forma significativa os músculos dos braços, como os bíceps.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPulldownFechado">
+					<img src="../Imagens/GIFs/Costas/7. Pulldown Fechado.gif" alt="Pulldown Fechado"
+						class="gifPequeno" id="gifPulldownFechado" onclick="abrirGif('gifPulldownFechado', 'divPulldownFechado')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas8">
+				<div class="divInfo">
+					<h1 class="txtInfo">Pulldown com Corda - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/8. Pulldown com Corda Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas8')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Pulldown com Corda <span class="buttonInfo" onclick="abrirInfo('divCostas8')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O pulldown com corda é uma variação do exercício de pulldown que envolve o uso de uma corda na máquina de pulldown. Essa variação é excelente para focar nos músculos dorsais (latíssimos do dorso), bem como nos músculos dos braços e do abdômen.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divPulldownCorda">
+					<img src="../Imagens/GIFs/Costas/8. Pulldown com Corda.gif" alt="Pulldown com Corda"
+						class="gifPequeno" id="gifPulldownCorda" onclick="abrirGif('gifPulldownCorda', 'divPulldownCorda')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas9">
+				<div class="divInfo">
+					<h1 class="txtInfo">Extensão de Tronco - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/9. Extensão de Tronco Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas9')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Extensão de Tronco <span class="buttonInfo" onclick="abrirInfo('divCostas9')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A extensão de tronco, também conhecida como "back extension", é um exercício que trabalha os músculos eretores da espinha, glúteos e músculos do core. Esse exercício é frequentemente realizado em um equipamento específico chamado "hyperextension bench" ou "Roman chair."
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divExtensaoTronco">
+					<img src="../Imagens/GIFs/Costas/9. Extensão de Tronco.gif" alt="Extensão de Tronco"
+						class="gifPequeno" id="gifExtensaoTronco" onclick="abrirGif('gifExtensaoTronco', 'divExtensaoTronco')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divCostas10">
+				<div class="divInfo">
+					<h1 class="txtInfo">Hiperextensões - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Costas/10. Hiperextensões Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divCostas10')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Hiperextensões <span class="buttonInfo" onclick="abrirInfo('divCostas10')">ⓘ</span></h2>
+				<p class="txtDesc">
+					As hiperextensões, também conhecidas como "hyperextensions" ou "back extensions", são um exercício que visa fortalecer os músculos eretores da espinha, glúteos, isquiotibiais e outros músculos da região lombar e posterior das coxas. Esse exercício também pode ajudar a melhorar a estabilidade da coluna vertebral e a postura.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divHiperextensoes">
+					<img src="../Imagens/GIFs/Costas/10. Hiperextensões.gif" alt="Hiperextensões"
+						class="gifPequeno" id="gifHiperextensoes" onclick="abrirGif('gifHiperextensoes', 'divHiperextensoes')">
+				</div>
+			</div>
+		</section>
+
+		<section class="arealogo" style="margin: 5rem;">
+			<img src="../Imagens/Design/LogoBaixo.svg" id="logoabaixo">
+		</section>
+	</body>
+</html>

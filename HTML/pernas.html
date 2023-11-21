@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fitness Estácio - Pernas</title>
+		<link rel="shortcut icon" href="../Imagens/Design/Halter.png" type="image/x-icon">
+		<link rel="stylesheet" href="../CSS/style2.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yu+Mincho">
+		<script src="../JavaScript/script.js"></script>
+	</head>
+	<body>
+		<section class="sectionHeader">
+			<div class="menuDropdown" id="menuDropdown">
+				<ul class="listaDropdown">
+					<li><button onclick="fecharMenu()" style="height: 5rem; background-color: transparent; border: none;"><img
+						src="../Imagens/Design/fecharMenu.png" style="width: 5rem; margin-left: 0;"></button></li>
+					<li>‎ </li>
+					<li>‎ </li>
+					<li>‎ </li>
+					<li><a class="buttonMenu" href="../index.html">HOME</a></li>
+					<li><a class="buttonMenu" style="color: #F91220;" href="exercicios.html">EXERCÍCIOS</a></li>
+					<li><a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a></li>
+					<li><a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a></li>
+					<li><a class="buttonMenu" href="conta.html">CONTA</a></li>
+					<li><a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a></li>
+					<li><br></li>
+					<li><hr class="linha"></li>
+					<li><br></li>
+					<li><a class="buttonMenu" href="peitos.html">PEITOS</a></li>
+					<li><a class="buttonMenu" href="costas.html">COSTAS</a></li>
+					<li><a class="buttonMenu" href="bracos.html">BRAÇOS</a></li>
+					<li><a class="buttonMenu" style="color: #F91220;" href="pernas.html">PERNAS</a></li>
+					<li><a class="buttonMenu"  href="abdomen.html">ABDÔMEN</a></li>
+					<li><a class="buttonMenu" href="cardio.html">CARDIO</a></li>
+				</ul>
+			</div>
+			<div class="headerLeft">
+				<img src="../Imagens/Design/LogoCima.svg" class="logoCima">
+			</div>
+			<div class="headerRight">
+				<section class="buttonHeader buttonHeaderCima">
+					<a class="buttonMenu" href="../index.html">HOME</a>
+					<a class="buttonMenu" style="color: #F91220;" href="exercicios.html">EXERCÍCIOS</a>
+					<a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a>
+					<a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a>
+					<a class="buttonMenu" href="conta.html">CONTA</a>
+					<a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="peitos.html">PEITOS</a>
+					<a class="buttonMenu" href="costas.html">COSTAS</a>
+					<a class="buttonMenu" href="bracos.html">BRAÇOS</a>
+					<a class="buttonMenu" style="color: #F91220;" href="pernas.html">PERNAS</a>
+					<a class="buttonMenu" href="abdomen.html">ABDÔMEN</a>
+					<a class="buttonMenu" href="cardio.html">CARDIO</a>
+				</section>
+			</div>
+			<div class="headerRight1450">
+				<section class="buttonHeader buttonHeaderCima" style="margin-top: -11rem;">
+					<a class="buttonMenu" href="../index.html">HOME</a>
+					<a class="buttonMenu" style="color: #F91220;" href="exercicios.html">EXERCÍCIOS</a>
+					<a class="buttonMenu" href="sobre nos.html">SOBRE NÓS</a>
+				</section>
+				<section class="buttonHeader buttonHeaderCima1450" style="margin-bottom: 2rem;">
+					<a class="buttonMenu" href="contatos.html">NOSSOS CONTATOS</a>
+					<a class="buttonMenu" href="conta.html">CONTA</a>
+					<a class="buttonMenu" href="../PHP/avaliacoes.php">AVALIAÇÕES</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" href="peitos.html">PEITOS</a>
+					<a class="buttonMenu" href="costas.html">COSTAS</a>
+					<a class="buttonMenu" href="bracos.html">BRAÇOS</a>
+				</section>
+				<section class="buttonHeader buttonHeaderBaixo">
+					<a class="buttonMenu" style="color: #F91220;" href="pernas.html">PERNAS</a>
+					<a class="buttonMenu" href="abdomen.html">ABDÔMEN</a>
+					<a class="buttonMenu" href="cardio.html">CARDIO</a>
+				</section>
+			</div>
+			<div class="buttonHeaderEscondido">
+				<button onclick="abrirMenu()" style="background-color: transparent; border: none;"><img
+					src="../Imagens/Design/menu.png" style="width: 5rem; margin-left: 0; " alt="iconeMenu"></button>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas1">
+				<div class="divInfo">
+					<h1 class="txtInfo">Agachamento - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/1. Agachamento Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas1')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Agachamento <span class="buttonInfo" onclick="abrirInfo('divPernas1')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O agachamento é um dos exercícios mais fundamentais e eficazes para o fortalecimento dos músculos inferiores do corpo, incluindo os quadríceps, glúteos, isquiotibiais e panturrilhas. Ele também envolve o core para manter a estabilidade durante o movimento.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divAgachamento">
+					<img src="../Imagens/GIFs/Pernas/1. Agachamento.gif" alt="Flexões" class="gifPequeno" id="gifAgachamento" onclick="abrirGif('gifAgachamento', 'divAgachamento')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas2">
+				<div class="divInfo">
+					<h1 class="txtInfo">Agachamento Sumô - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/2. Agachamento Sumô Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas2')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Agachamento Sumô <span class="buttonInfo" onclick="abrirInfo('divPernas2')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O agachamento sumô, também conhecido como "sumo squat," é uma variação do agachamento que coloca mais ênfase nos músculos internos das coxas (adutores) e glúteos, enquanto também envolve os quadríceps e a região lombar. Essa variação é chamada "sumô" devido à semelhança com a postura larga adotada por lutadores de sumô.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divAgachamentoSumo">
+					<img src="../Imagens/GIFs/Pernas/2. Agachamento Sumô.gif" alt="Agachamento Sumô"
+						class="gifPequeno" id="gifAgachamentoSumo" onclick="abrirGif('gifAgachamentoSumo', 'divAgachamentoSumo')">
+				</div>
+			</div>
+		</section>
+		
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas3">
+				<div class="divInfo">
+					<h1 class="txtInfo">Afundo - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/3. Afundo Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas3')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Afundo <span class="buttonInfo" onclick="abrirInfo('divPernas3')">ⓘ</span></h2>
+				<p class="txtDesc"> O afundo, também conhecido como "lunge," é um exercício unilateral que visa fortalecer os músculos das pernas, glúteos e músculos estabilizadores.</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divAfundo">
+					<img src="../Imagens/GIFs/Pernas/3. Afundo.gif" alt="Flexão com Palmas"
+						class="gifPequeno" id="gifAfundo" onclick="abrirGif('gifAfundo', 'divAfundo')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas4">
+				<div class="divInfo">
+					<h1 class="txtInfo">Afundo Lateral - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/4. Afundo Lateral Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas4')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Afundo Lateral <span class="buttonInfo" onclick="abrirInfo('divPernas4')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O afundo lateral, também conhecido como "lateral lunge" em inglês, é um exercício que trabalha principalmente os músculos das pernas, incluindo os quadríceps, isquiotibiais e glúteos. Ele também envolve os músculos estabilizadores e exige equilíbrio e coordenação.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divAfundoLateral">
+					<img src="../Imagens/GIFs/Pernas/4. Afundo Lateral.gif" alt="Afundo Lateral"
+						class="gifPequeno" id="gifAfundoLateral" onclick="abrirGif('gifAfundoLateral', 'divAfundoLateral')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas5">
+				<div class="divInfo">
+					<h1 class="txtInfo">Leg Press - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/5. Leg Press Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas5')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Leg Press <span class="buttonInfo" onclick="abrirInfo('divPernas5')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O leg press é um exercício de musculação que trabalha principalmente os músculos das pernas, incluindo os quadríceps, isquiotibiais, glúteos e panturrilhas. Ele é realizado usando uma máquina de leg press, que permite pressionar pesos usando as pernas.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divLegPress">
+					<img src="../Imagens/GIFs/Pernas/5. Leg Press.gif" alt="Leg Press" class="gifPequeno" id="gifLegPress" onclick="abrirGif('gifLegPress', 'divLegPress')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas6">
+				<div class="divInfo">
+					<h1 class="txtInfo">Cadeira Extensora - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/6. Cadeira Extensora Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas6')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Cadeira Extensora <span class="buttonInfo" onclick="abrirInfo('divPernas6')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A cadeira extensora é um equipamento de musculação utilizado para isolar e fortalecer os músculos quadríceps, localizados na parte frontal da coxa. O exercício realizado na cadeira extensora é conhecido como "extensão de quadríceps."
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divCadeiraExtensora">
+					<img src="../Imagens/GIFs/Pernas/6. Cadeira Extensora.gif" alt="Cadeira Extensora"
+						class="gifPequeno" id="gifCadeiraExtensora" onclick="abrirGif('gifCadeiraExtensora', 'divCadeiraExtensora')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas7">
+				<div class="divInfo">
+					<h1 class="txtInfo">Cadeira Flexora - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/7. Cadeira Flexora Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas7')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Cadeira Flexora <span class="buttonInfo" onclick="abrirInfo('divPernas7')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A cadeira flexora é um equipamento de musculação que tem como foco principal o fortalecimento dos músculos isquiotibiais, localizados na parte posterior da coxa. O exercício realizado na cadeira flexora é conhecido como "flexão de isquiotibiais" ou "cadeira flexora".
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divCadeiraFlexora">
+					<img src="../Imagens/GIFs/Pernas/7. Cadeira Flexora.gif" alt="Cadeira Flexora"
+						class="gifPequeno" id="gifCadeiraFlexora" onclick="abrirGif('gifCadeiraFlexora', 'divCadeiraFlexora')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas8">
+				<div class="divInfo">
+					<h1 class="txtInfo">Stiff - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/8. Stiff Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas8')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Stiff <span class="buttonInfo" onclick="abrirInfo('divPernas8')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O levantamento terra stiff, também conhecido como "stiff-legged deadlift" ou "stiff-legged Romanian deadlift", é um exercício excelente para trabalhar os músculos isquiotibiais (parte posterior das coxas), glúteos e também fortalecer a região lombar e o core.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divStiff">
+					<img src="../Imagens/GIFs/Pernas/8. Stiff.gif" alt="Stiff" class="gifPequeno" id="gifStiff" onclick="abrirGif('gifStiff', 'divStiff')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas9">
+				<div class="divInfo">
+					<h1 class="txtInfo">Elevação de Panturrilha - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/9. Elevação de Panturrilha Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas9')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Elevação de Panturrilha <span class="buttonInfo" onclick="abrirInfo('divPernas9')">ⓘ</span></h2>
+				<p class="txtDesc">
+					A elevação de panturrilha é um exercício que visa fortalecer os músculos da panturrilha, especificamente o músculo gastrocnêmio e o músculo sóleo.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divElevacaoPanturrilha">
+					<img src="../Imagens/GIFs/Pernas/9. Elevação de Panturrilha.gif"
+						alt="Elevação de Panturrilha" class="gifPequeno" id="gifElevacaoPanturrilha" onclick="abrirGif('gifElevacaoPanturrilha', 'divElevacaoPanturrilha')">
+				</div>
+			</div>
+		</section>
+
+		<section class="titulo">
+			<div class="esconderInfo" id="divPernas10">
+				<div class="divInfo">
+					<h1 class="txtInfo">Salto com Agachamento - Músculos Trabalhados</h1>
+					<img class="imgInfo" src="../Imagens/Músculos/Pernas/10. Salto com Agachamento Músculos.jpg" alt="Musculos Trabalhados" onclick="abrirInfo('divPernas10')">
+				</div>
+			</div>
+
+			<div class="left-content">
+				<!-- Conteúdo da terceira parte (esquerda, centro e parte de baixo) -->
+				<h2 class="txtTitulo">Salto com Agachamento <span class="buttonInfo" onclick="abrirInfo('divPernas10')">ⓘ</span></h2>
+				<p class="txtDesc">
+					O salto com agachamento, também conhecido como "squat jump," é um exercício que combina um agachamento profundo seguido de um salto explosivo. É uma excelente forma de exercício plyométrico que trabalha a força das pernas, o poder explosivo e a coordenação.
+				</p>
+			</div>
+			<div class="right-content">
+				<div class="divPequeno" id="divSaltoAgachamento">
+					<img src="../Imagens/GIFs/Pernas/10. Salto com Agachamento.gif" alt="Salto com Agachamento"
+						class="gifPequeno" id="gifSaltoAgachamento" onclick="abrirGif('gifSaltoAgachamento', 'divSaltoAgachamento')">
+				</div>
+			</div>
+		</section>
+
+		<section class="arealogo" style="margin: 5rem;">
+			<img src="../Imagens/Design/LogoBaixo.svg" id="logoabaixo">
+		</section>
+	</body>
+</html>

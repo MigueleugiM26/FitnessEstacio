@@ -1,0 +1,72 @@
+Peitos:
+    Flexões (calistenia)
+    Flexões diamante (calistenia)
+    Supino reto (com equipamento)
+    Supino inclinado (com equipamento)
+    Supino declinado (com equipamento)
+    Crucifixo com halteres (com equipamento)
+    Pullover com halteres (com equipamento)
+    Crossover Press (com equipamento)
+    Peck deck (com equipamento)
+    Push-ups com aplauso (calistenia)
+
+Costas:
+    Barra fixa (calistenia)
+    Levantamento terra (com equipamento)
+    Remada com barra (com equipamento)
+    Remada Unilateral (com equipamento)
+    Crucifixo Inverso (com equipamento)
+    Pulldown na máquina (com equipamento)
+    Pulldown Fechado (com equipamento)
+    Pulldown com corda (com equipamento)
+    Flexão Lateral (calistenia)
+    Hiperextensões (calistenia ou com equipamento)
+    
+
+Braços:
+    Rosca alternada com halteres (com equipamento)
+    Rosca martelo (com equipamento)
+    Rosca inversa com barra (com equipamento)
+    Flexão de braço com pegada fechada (calistenia)
+    Tríceps mergulho (calistenia ou com equipamento)
+    Tríceps supino fechado (com equipamento)
+    Tríceps francês (com equipamento)
+    Flexão de punho com barra (com equipamento)
+    Desenvolvimento militar (com equipamento)
+    Elevação frontal (com equipamento)
+
+Pernas:
+    Agachamento (com equipamento)
+    Agachamento sumô (com equipamento)
+    Avanço (com equipamento)
+    Afundo (com equipamento)
+    Leg press (com equipamento)
+    Cadeira extensora (com equipamento)
+    Cadeira flexora (com equipamento)
+    Stiff (com equipamento)
+    Elevação de panturrilha (com equipamento)
+    Salto com agachamento (calistenia)
+
+Abdômen:
+    Crunch (calistenia ou com equipamento)
+    Prancha (calistenia)
+    Prancha lateral (calistenia)
+    Elevação de pernas suspenso (com equipamento)
+    Abdominal bicicleta (calistenia)
+    Prancha com elevação alternada de braços (calistenia)
+    Tesoura (calistenia)
+    Elevação de quadril (calistenia)
+    Prancha com rotação de quadril (calistenia)
+    Abdominal na bola suíça (com equipamento)
+
+Cardio:
+    Corrida (na esteira ou ao ar livre)
+    Ciclismo (bicicleta ergométrica ou ao ar livre)
+    Pular corda
+    Natação
+    Caminhada rápida ou power walking
+    Aeróbica
+    Dança (zumba, salsa, hip-hop, etc.)
+    Subir escadas
+    Treinamento intervalado de alta intensidade (HIIT)
+    Máquina elíptica

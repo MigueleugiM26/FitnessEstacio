@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fitness Estácio</title>
+		<link rel="shortcut icon" href="../Imagens/Design/Halter.png" type="image/x-icon">
+		<link rel="stylesheet" href="CSS/style2.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yu+Mincho">
+		<script src="../JavaScript/script.js"></script>
+	</head>
+	<body>
+		<div style="width: 100%; height: 100%; max-width: 100%; max-height: 100%; overflow: hidden;" class="fundo">
+			<img id="logoEsquerda" style="position: absolute; margin-left: 72%; height: 100%; pointer-events: none; right: 0%; position: absolute;" src="Imagens/Design/LogoMenu.svg"> <!--Pointer Events faz com que não dê para clicar na imagem, assim ela não atrapalha os botões -Miguel Gabriel-->
+			<section class="sectionHeader">
+				<div class="menuDropdown" id="menuDropdown">
+					<ul class="listaDropdown">
+						<li><button onclick="fecharMenu()" style="height: 5rem; background-color: transparent; border: none;"><img
+							src="../Imagens/Design/fecharMenu.png" style="width: 5rem; margin-left: 0;"></button></li>
+						<li>‎ </li>
+						<li>‎ </li>
+						<li>‎ </li>
+						<li><a class="buttonMenu" style="color: #F91220;" href="index.html">HOME</a></li>
+						<li><a class="buttonMenu" href="HTML/exercicios.html">EXERCÍCIOS</a></li>
+						<li><a class="buttonMenu" href="HTML/sobre nos.html">SOBRE NÓS</a></li>
+						<li><a class="buttonMenu" href="HTML/contatos.html">NOSSOS CONTATOS</a></li>
+						<li><a class="buttonMenu" href="HTML/conta.html">CONTA</a></li>
+						<li><a class="buttonMenu" href="PHP/avaliacoes.php">AVALIAÇÕES</a></li>
+					</ul>
+				</div>
+				<div class="headerLeft">
+					<img src="Imagens/Design/LogoCima.svg" class="logoCima">
+				</div>
+				<div class="headerRight">
+					<section class="buttonHeader buttonHeaderCima">
+						<a class="buttonMenu" style="color: #F91220;" href="index.html">HOME</a>
+						<a class="buttonMenu" href="HTML/exercicios.html">EXERCÍCIOS</a>
+						<a class="buttonMenu" href="HTML/sobre nos.html">SOBRE NÓS</a>
+						<a class="buttonMenu" href="HTML/contatos.html">NOSSOS CONTATOS</a>
+						<a class="buttonMenu" href="HTML/conta.html">CONTA</a>
+						<a class="buttonMenu" href="PHP/avaliacoes.php">AVALIAÇÕES</a>
+					</section>
+				</div>
+				<div class="headerRight1450">
+					<section class="buttonHeader buttonHeaderCima" style="margin-top: -11rem;">
+						<a class="buttonMenu" style="color: #F91220;" href="index.html">HOME</a>
+						<a class="buttonMenu" href="HTML/exercicios.html">EXERCÍCIOS</a>
+						<a class="buttonMenu" href="HTML/sobre nos.html">SOBRE NÓS</a>
+					</section>
+					<section class="buttonHeader buttonHeaderCima1450" style="margin-bottom: 2rem;">
+						<a class="buttonMenu" href="HTML/contatos.html">NOSSOS CONTATOS</a>
+						<a class="buttonMenu" href="HTML/conta.html">CONTA</a>
+						<a class="buttonMenu" href="PHP/avaliacoes.php">AVALIAÇÕES</a>
+					</section>
+				</div>
+				<div class="buttonHeaderEscondido">
+					<button onclick="abrirMenu()" style="background-color: transparent; border: none;"><img
+						src="Imagens/Design/menu.png" style="width: 5rem; margin-left: 0; " alt="iconeMenu"></button>
+				</div>
+			</section>
+
+			<section style="margin-left: 13%; margin-top: 9%;">
+				<h1 class="textoHomeTitulo">FITNESS ESTÁCIO<span style="color: #F91220;">.</span></h1>
+				<h2 class="textoHomeSubtitulo">NO PAIN .. NO GAIN</h2>
+				<p class="textoHomeParagrafo">Bem-vindo ao nosso site de musculação! Aqui, você encontrará tudo o que precisa para atingir seus objetivos de condicionamento físico e construir o corpo dos seus sonhos.</p>
+				<a href="HTML/conta.html"><button class="btnInscrever">Se inscreva agora</button></a>
+				<p class="textoCopyright">© Caio, Erik, Felipe, Kauã, Miguel</p>
+			</section>
+		</div>
+	</body>
+</html>

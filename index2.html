@@ -1,0 +1,142 @@
+<!-- 
+    16px = 100%
+    Usem regra de 3 pra definir o tamanho das fontes
+    ex.: Se quiserem 64px, usando regra de 3:
+    16px - 100%
+    64px - ?
+
+    64 * 100 = 16 * x
+    6400 = 16x
+    x = 6400 / 16 => 400%
+
+    Ou usem https://www.4devs.com.br/calculadora_regra_tres_simples pra calcular mais rápido
+    -Miguel Gabriel
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitness Estácio</title>
+        <link rel="icon" type="image/x-icon" href="Imagens/Design/Halter.png">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yu+Mincho">
+        <script src="JavaScript/script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>       
+        <div id="menuPrincipal" class="tela telaAtiva">
+            <img style="position: absolute; margin-left: 72%; height: 100%; pointer-events: none;" src="Imagens/Design/LogoMenu.svg"> <!--Pointer Events faz com que não dê para clicar na imagem, assim ela não atrapalha os botões -Miguel Gabriel-->
+
+            <section style="display: inline; width: 100%;">
+                <img src="Imagens/Design/LogoCima.svg" style="margin-left: 4.65%; margin-top: 2.3%; width: 9.1%;">
+
+                <section style="margin-left: 43%; margin-top: -4.75%; width: 50%;">
+                    <button style="color: #F91220;" onclick="showScreen('menuPrincipal')">HOME</button>
+                    <button onclick="showScreen('menuExercicios')">EXERCÍCIOS</button>
+                    <button onclick="showScreen('menuSobreNos')">SOBRE NÓS</button>
+                    <button onclick="showScreen('menuNossosContatos')">NOSSOS CONTATOS</button>
+                    <button onclick="showScreen('menuConta')">CONTA</button>
+                </section>
+            </section>
+
+            <section style="margin-left: 11.5%; margin-top: 9%;">
+                <h1 style="font-size: 400%; margin-bottom: -1.5%; font-weight: 100;">FITNESS ESTÁCIO<span style="color: #F91220;">.</span></h1>
+                <h2 style="font-size: 225%; margin-bottom: -.5%; font-weight: 100;">NO PAIN .. NO GAIN</h2>
+                <p style="font-size: 125%; color: #999999; width: 27%;">Bem-vindo ao nosso site de musculação! Aqui, você encontrará tudo o que precisa para atingir seus objetivos de condicionamento físico e construir o corpo dos seus sonhos.</p>
+                <button onclick="showScreen('menuConta')" class="btnInscrever">Se inscreva agora</button>
+                <p style="margin-top: 17%; font-size: 93.75%; color: #999999;">© Caio, Erik, Felipe, Kauã, Miguel</p>
+            </section>
+        </div>
+        
+
+
+        <div id="menuExercicios" class="tela">
+            <section style="display: inline; width: 100%;">
+                <img src="Imagens/Design/LogoCima.svg" style="margin-left: 4.65%; margin-top: 2.3%;">
+
+                <section style="margin-left: 43%; margin-top: -4.75%; width: 50%;">
+                    <button onclick="showScreen('menuPrincipal')">HOME</button>
+                    <button style="color: #F91220;" onclick="showScreen('menuExercicios')">EXERCÍCIOS</button>
+                    <button onclick="showScreen('menuSobreNos')">SOBRE NÓS</button>
+                    <button onclick="showScreen('menuNossosContatos')">NOSSOS CONTATOS</button>
+                    <button onclick="showScreen('menuConta')">CONTA</button>
+                </section>
+            </section>
+
+
+            </section>
+        </div>
+
+
+
+        <div id="menuSobreNos" class="tela">
+            <section style="display: inline; width: 100%;">
+                <img src="Imagens/Design/LogoCima.svg" style="margin-left: 4.65%; margin-top: 2.3%;">
+
+                <section style="margin-left: 43%; margin-top: -4.75%; width: 50%;">
+                    <button onclick="showScreen('menuPrincipal')">HOME</button>
+                    <button onclick="showScreen('menuExercicios')">EXERCÍCIOS</button>
+                    <button style="color: #F91220;" onclick="showScreen('menuSobreNos')">SOBRE NÓS</button>
+                    <button onclick="showScreen('menuNossosContatos')">NOSSOS CONTATOS</button>
+                    <button onclick="showScreen('menuConta')">CONTA</button>
+                </section>
+            </section>
+
+            <section style="margin-left: 11.5%; margin-top: 9%;">
+                <h1 style="font-size: 64px; margin-bottom: -1.5%; font-weight: 100;">FITNESS ESTÁCIO<span style="color: #F91220;">.</span></h1>
+                <h2 style="font-size: 36px; margin-bottom: -.5%; font-weight: 100;">NO PAIN .. NO GAIN</h2>
+                <p style="font-size: 20px; color: #999999; width: 27%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat sagittis lectus. Donec at semper erat. Duis tincidunt eget augue eu malesuada. Vestibulum tempor erat felis, quis hendrerit tellus aliquet vel.</p>
+                <button class="btnInscrever">Se inscreva agora</button>
+            </section>
+        </div>
+
+
+
+        <div id="menuNossosContatos" class="tela">
+            <section style="display: inline; width: 100%;">
+                <img src="Imagens/Design/LogoCima.svg" style="margin-left: 4.65%; margin-top: 2.3%;">
+
+                <section style="margin-left: 43%; margin-top: -4.75%; width: 50%;">
+                    <button onclick="showScreen('menuPrincipal')">HOME</button>
+                    <button onclick="showScreen('menuExercicios')">EXERCÍCIOS</button>
+                    <button onclick="showScreen('menuSobreNos')">SOBRE NÓS</button>
+                    <button style="color: #F91220;" onclick="showScreen('menuNossosContatos')">NOSSOS CONTATOS</button>
+                    <button onclick="showScreen('menuConta')">CONTA</button>
+                </section>
+            </section>
+
+            <section style="margin-left: 11.5%; margin-top: 9%;">
+                <h1 style="font-size: 64px; margin-bottom: -1.5%; font-weight: 100;">FITNESS ESTÁCIO<span style="color: #F91220;">.</span></h1>
+                <h2 style="font-size: 36px; margin-bottom: -.5%; font-weight: 100;">NO PAIN .. NO GAIN</h2>
+                <p style="font-size: 20px; color: #999999; width: 27%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat sagittis lectus. Donec at semper erat. Duis tincidunt eget augue eu malesuada. Vestibulum tempor erat felis, quis hendrerit tellus aliquet vel.</p>
+                <button class="btnInscrever">Se inscreva agora</button>
+            </section>
+        </div>
+
+
+
+        <div id="menuConta" class="tela">
+            <section style="display: inline; width: 100%;">
+                <img src="Imagens/Design/LogoCima.svg" style="margin-left: 4.65%; margin-top: 2.3%;">
+
+                <section style="margin-left: 43%; margin-top: -4.75%; width: 50%;">
+                    <button onclick="showScreen('menuPrincipal')">HOME</button>
+                    <button onclick="showScreen('menuExercicios')">EXERCÍCIOS</button>
+                    <button onclick="showScreen('menuSobreNos')">SOBRE NÓS</button>
+                    <button onclick="showScreen('menuNossosContatos')">NOSSOS CONTATOS</button>
+                    <button style="color: #F91220;" onclick="showScreen('menuConta')">CONTA</button>
+                </section>
+            </section>
+
+            <section style="margin-left: 11.5%; margin-top: 9%;">
+                <h1 style="font-size: 64px; margin-bottom: -1.5%; font-weight: 100;">FITNESS ESTÁCIO<span style="color: #F91220;">.</span></h1>
+                <h2 style="font-size: 36px; margin-bottom: -.5%; font-weight: 100;">NO PAIN .. NO GAIN</h2>
+                <p style="font-size: 20px; color: #999999; width: 27%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat sagittis lectus. Donec at semper erat. Duis tincidunt eget augue eu malesuada. Vestibulum tempor erat felis, quis hendrerit tellus aliquet vel.</p>
+                <button class="btnInscrever">Se inscreva agora</button>
+            </section>
+        </div>
+    </body>
+</html>
